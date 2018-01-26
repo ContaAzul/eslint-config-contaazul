@@ -1,0 +1,31 @@
+{
+  "name": "eslint-config-contaazul",
+  "version": "0.0.1",
+  "description": "Configs Linter Conta Azul",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/ContaAzul/eslint-config-contaazul"
+  },
+  "keywords": [
+    "eslint",
+    "eslintconfig",
+    "config",
+    "contaazul",
+    "javascript",
+    "styleguide"
+  ],
+  "author": "Conta Azul <domphysis@contaazul.com> (http://contaazul.com)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/ContaAzul/eslint-config-contaazul/issues"
+  },
+  "homepage": "https://github.com/ContaAzul/eslint-config-contaazul",
+  "peerDependencies": {
+    "eslint": "^4.16.0",
+    "eslint-config-airbnb-base": "^12.1.0"
+  }
+}
