@@ -17,8 +17,8 @@ module.exports = {
     "no-use-before-define": ["error", { "functions": false, "classes": true }],
     "prefer-destructuring": ["warn", {"object": true, "array": true}],
     "arrow-parens": ["error", "as-needed", { "requireForBlockBody": false }],
-		"radix": ["error", "as-needed"],
-		"comma-dangle": ["error", "only-multiline"]
+    "radix": ["error", "as-needed"],
+    "comma-dangle": ["error", "only-multiline"]
   },
   "extends": ["airbnb-base"]
 };
