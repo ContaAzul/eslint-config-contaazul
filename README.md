@@ -1,6 +1,6 @@
 # Eslint Config Contaazul
 
-Totalmente baseado no [eslint do AirBnb](https://github.com/airbnb/javascript/tree/master/packages/eslint-config-airbnb-base)
+Tendo como base o [eslint do AirBnb](https://github.com/airbnb/javascript/tree/master/packages/eslint-config-airbnb-base)
 
 ## Install
 
