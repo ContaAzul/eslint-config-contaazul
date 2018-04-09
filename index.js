@@ -18,7 +18,7 @@ module.exports = {
     "prefer-destructuring": ["warn", {"object": true, "array": true}],
     "arrow-parens": ["error", "as-needed", { "requireForBlockBody": false }],
     "radix": ["error", "as-needed"],
-    "comma-dangle": ["error", "only-multiline"]
+    "comma-dangle": ["error", "always-multiline"]
   },
   "extends": ["airbnb-base"]
 };
