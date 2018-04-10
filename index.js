@@ -12,7 +12,7 @@ module.exports = {
     "import/prefer-default-export" : 0,
     "radix" : [ 2, "as-needed" ],
     "class-methods-use-this" : 0,
-    "no-param-reassign" : 1,
+    "no-param-reassign" : ["error", { "props": false }],
     "no-console": ["warn", { "allow": ["error"] }],
     "no-use-before-define": ["error", { "functions": false, "classes": true }],
     "prefer-destructuring": ["warn", {"object": true, "array": true}],
