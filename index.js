@@ -30,6 +30,7 @@ module.exports = {
         "allowFirstLine": false
       }
     }],
+    "vue/component-name-in-template-casing": ["error", "kebab-case"],
     "vue/html-self-closing": "off",
     "vue/require-default-prop": "off",
   },
