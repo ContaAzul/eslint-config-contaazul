@@ -26,6 +26,7 @@
   "homepage": "https://github.com/ContaAzul/eslint-config-contaazul",
   "peerDependencies": {
     "eslint": "^4.16.0",
-    "eslint-config-airbnb-base": "^12.1.0"
+    "eslint-config-airbnb-base": "^12.1.0",
+    "eslint-plugin-vue": "^5.2.2"
   }
 }
