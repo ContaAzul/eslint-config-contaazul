@@ -34,6 +34,6 @@ module.exports = {
     "vue/html-self-closing": "off",
     "vue/require-default-prop": "off",
   },
-  extends: ["airbnb-base", "plugin:vue/strongly-recommended"],
+  extends: ["airbnb-base", "plugin:vue/recommended"],
   plugins: ["vue"],
 };
