@@ -1,6 +1,6 @@
 {
   "name": "eslint-config-contaazul",
-  "version": "0.0.4",
+  "version": "0.0.5",
   "description": "Configs Linter ContaAzul",
   "main": "index.js",
   "scripts": {
@@ -26,6 +26,7 @@
   "homepage": "https://github.com/ContaAzul/eslint-config-contaazul",
   "peerDependencies": {
     "eslint": "^4.16.0",
-    "eslint-config-airbnb-base": "^12.1.0"
+    "eslint-config-airbnb-base": "^12.1.0",
+    "eslint-plugin-vue": "^5.2.2"
   }
 }

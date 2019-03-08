@@ -18,7 +18,22 @@ module.exports = {
     "prefer-destructuring": ["warn", {"object": true, "array": true}],
     "arrow-parens": ["error", "as-needed", { "requireForBlockBody": false }],
     "radix": ["error", "as-needed"],
-    "comma-dangle": ["error", "always-multiline"]
+    "comma-dangle": ["error", "always-multiline"],
+    "vue/singleline-html-element-content-newline": "off",
+    "vue/html-closing-bracket-newline": ["error", {
+      "multiline": "never",
+    }],
+    "vue/max-attributes-per-line": ["error", {
+      "singleline": 2,
+      "multiline": {
+        "max": 1,
+        "allowFirstLine": false
+      }
+    }],
+    "vue/component-name-in-template-casing": ["error", "kebab-case"],
+    "vue/html-self-closing": "off",
+    "vue/require-default-prop": "off",
   },
-  "extends": ["airbnb-base"]
+  extends: ["airbnb-base", "plugin:vue/recommended"],
+  plugins: ["vue"],
 };
