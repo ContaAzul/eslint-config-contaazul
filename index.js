@@ -19,6 +19,11 @@ module.exports = {
     "arrow-parens": ["error", "as-needed", { "requireForBlockBody": false }],
     "radix": ["error", "as-needed"],
     "comma-dangle": ["error", "always-multiline"],
+    "padding-line-between-statements": [
+      "error",
+      { "blankLine": "always", "prev": "function", "next": "function" },
+      { "blankLine": "always", "prev": "multiline-expression", "next": "multiline-expression" },
+    ],
     "vue/singleline-html-element-content-newline": "off",
     "vue/html-closing-bracket-newline": ["error", {
       "multiline": "never",
